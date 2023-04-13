@@ -22,3 +22,9 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+console.log("The pocketNum value:", backpack.pocketNum);
+console.log("Straplength Left:", backpack.strapLength.left);
+
+var query = "pocketNum";
+
+console.log("The pocketNum value:", backpack[query]); // bracket notation for more control to use a variable for a property name or it is non standard like "property-hyphen"
